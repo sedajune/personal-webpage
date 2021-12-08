@@ -9,33 +9,39 @@
 
   <body>
     <header>
+      <nav>
+        <a href="#Contact-Info">Contact Info</a>
+        <a href="#Skills">Skills</a>
+        <a href="#About-me">About me</a>
+      </nav>
       <h1 class="head-title">My Portfolio</h1>
-      <h2>This is me</h2>
+      <h2 class="sub-heading">This is me</h2>
       <img
+        class="image-header"
         src="https://images.freeimages.com/images/large-previews/673/lady-and-dog-1633909.jpg"
         alt="photo"
       />
     </header>
     <main>
-      <div class="Contact Info">
-        <h4>Contact Info</h4>
+      <div id="Contact-Info">
+        <h3 class="contact-info">Contact Info</h3>
         <ul>
-          <li>Name: Silke Groenke</li>
-          <li>Email Address: Silkigr@gmail.com</li>
+          <li>Name: Silke</li>
+          <li>Email Address:</li>
           <li>Mobile:</li>
           <li>Address:</li>
         </ul>
       </div>
 
       <div class="card">
-        <h3>Socials</h3>
+        <h4>Socials</h4>
         <img src="" />
-        <p>GITHUB</p>
+        <h5>GITHUB</h5>
         <a href="https://github.com/sedajune">@sedajune</a>
       </div>
 
       <div>
-        <h5>Skills</h5>
+        <h6 id="Skills" class="Skills">Skills</h6>
         <ul>
           <li>Skill 1</li>
           <li>Skill 2</li>
@@ -43,11 +49,30 @@
           <li>Skill 4</li>
         </ul>
       </div>
-      <h5>About me</h5>
-      <p>I am...</p>
+
+      <div id="About-me">
+        <h7 class="About-me">About me</h7>
+
+        <p>
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+      </div>
+      <footer>
+        <form>
+          <label>Email:</label>
+          <input type="email" />
+
+          <label>Feedback:</label>
+          <input type="Feedback" />
+          <button>Send</button>
+        </form>
+      </footer>
     </main>
-    <footer>
-      <nav></nav>
-    </footer>
   </body>
 </html>
